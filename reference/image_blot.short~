@@ -1,0 +1,13 @@
+<varlistentry>
+  <term>
+    <code><function>image_blot</function>(
+    <parameter>image</parameter>, 
+    <parameter>col</parameter>, 
+    <parameter>row</parameter>
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>. Draw a spot in image 
+    at (col,row) with the current brush and foreground color.
+  </listitem>
+</varlistentry>

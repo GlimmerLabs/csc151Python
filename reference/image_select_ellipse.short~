@@ -1,0 +1,15 @@
+<varlistentry>
+  <term>
+    <code><function>image_select_ellipse</function>(
+    <parameter>image</parameter>,
+    <parameter>selection-type</parameter>,
+    <parameter>left</parameter>,
+    <parameter>top</parameter>,
+    <parameter>width</parameter>,
+    <parameter>height</parameter>)
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>.
+  </listitem>
+</varlistentry>

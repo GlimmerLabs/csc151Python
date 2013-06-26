@@ -1,0 +1,28 @@
+<varlistentry>
+  <term>
+    <code><function>image_select_rectangle</function>(
+    <parameter>image</parameter>,
+    <parameter>selection-type</parameter>,
+    <parameter>left</parameter>,
+    <parameter>top</parameter>,
+    <parameter>width</parameter>,
+    <parameter>height</parameter>)
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>. Select a rectangle 
+    whose left margin is <parameter>left</parameter>, top margin is 
+    <parameter>top</parameter>, width is <parameter>width</parameter>, 
+    and height is <parameter>height</parameter>. If 
+    <parameter>selection-type</parameter> is <code>"REPLACE"</code>, 
+    the rectangle replaces the current selection. If 
+    <parameter>selection-type</parameter> is <code>"ADD"</code>, the 
+    rectangle is added to the current selection. If 
+    <parameter>selection-type</parameter> is <code>"SUBTRACT"</code>, 
+    the rectangle is subtracted from the current selection. If 
+    <parameter>selection-type</parameter> is <code>"INTERSECT"<code>, 
+    the rectangle is intersected with the current selection (that is, 
+    only points that are in both the current selection and the 
+    rectangle remain selected).
+  </listitem>
+</varlistentry>

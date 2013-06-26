@@ -1,0 +1,11 @@
+<varlistentry>
+  <term>
+    <code><function>context_set_fgcolor</function>(
+    <parameter>color</parameter>)
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>. Sets GIMP's current 
+    foreground color to color.
+  </listitem>
+</varlistentry>

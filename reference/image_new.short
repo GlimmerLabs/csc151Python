@@ -1,0 +1,12 @@
+<varlistentry>
+  <term>
+    <code><function>image_new</function>(
+      <parameter>width</parameter>, 
+      <parameter>height</parameter>)
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>. Create a new image of 
+    specified width and height.
+  </listitem>
+</varlistentry>

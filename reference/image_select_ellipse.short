@@ -1,0 +1,28 @@
+<varlistentry>
+  <term>
+    <code><function>image_select_ellipse</function>(
+    <parameter>image</parameter>,
+    <parameter>selection-type</parameter>,
+    <parameter>left</parameter>,
+    <parameter>top</parameter>,
+    <parameter>width</parameter>,
+    <parameter>height</parameter>)
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>. Select an ellipse 
+    whose left margin is <parameter>left</parameter>, top margin is 
+    <parameter>top</parameter>, width is <parameter>width</parameter>, 
+    and height is <parameter>height</parameter>. 
+    If <parameter>selection-type</parameter> is 
+    <code>“REPLACE”</code>, the ellipse replaces the current 
+    selection. If <parameter>selection-type</parameter> is 
+    <code>“ADD”</code>, the ellipse is added to the current selection. 
+    If <parameter>selection-type</parameter> is 
+    <code>“SUBTRACT”</code>, the ellipse is subtracted from the 
+    current selection. If <parameter>selection-type<parameter> is 
+    <code>“INTERSECT”</code>, the ellipse is intersected with the 
+    current selection (that is, only points that are in both the 
+    current selection and the ellipse remain selected).
+  </listitem>
+</varlistentry>

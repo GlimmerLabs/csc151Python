@@ -1,0 +1,10 @@
+<varlistentry>
+  <term>
+    <code><function>context_update_displays</function>()
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>. Update all of the 
+    displays to show changes to images.
+  </listitem>
+</varlistentry>

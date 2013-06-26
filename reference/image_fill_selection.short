@@ -1,0 +1,11 @@
+<varlistentry>
+  <term>
+    <code><function>image_fill_selection</function>(
+    <parameter>image</parameter>)
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>. Fill the selected 
+    region of the given image with the current foreground color.
+  </listitem>
+</varlistentry>

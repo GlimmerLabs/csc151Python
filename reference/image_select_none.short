@@ -1,0 +1,11 @@
+<varlistentry>
+  <term>
+    <code><function>image_select_none</function>(
+    <parameter>image</parameter>)
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>. Clears the current 
+    selection. Afterwards, nothing is selected.
+  </listitem>
+</varlistentry>

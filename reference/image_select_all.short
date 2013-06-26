@@ -1,0 +1,11 @@
+<varlistentry>
+  <term>
+    <code><function>image_select_all</function>(
+    <parameter>image</parameter>)
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>. Selects all of the 
+    pixels in the image.
+  </listitem>
+</varlistentry>

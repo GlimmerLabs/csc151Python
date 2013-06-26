@@ -1,0 +1,16 @@
+<varlistentry>
+  <term>
+    <code><function>image_draw_line</function>(
+    <parameter>image</parameter>, 
+    <parameter>col1</parameter>, 
+    <parameter>row1</parameter>, 
+    <parameter>col2</parameter>, 
+    <parameter>row2</parameter>)
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>. Draw a line in image 
+    from (col1,row1) to (col2,row2). Uses the current brush and 
+    foreground color.
+  </listitem>
+</varlistentry>

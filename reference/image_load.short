@@ -1,0 +1,12 @@
+<varlistentry>
+  <term>
+    <code><function>image_load</function>(
+    <parameter>filename</parameter>)
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>. Load an image from a 
+    file. The name of the file is a string (and, unless a named value, 
+    typically surrounded by quotation marks).
+  </listitem>
+</varlistentry>

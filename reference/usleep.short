@@ -1,0 +1,11 @@
+<varlistentry>
+  <term>
+    <code><function>usleep</function>(
+    <parameter>usec</parameter>)
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Optional Python Procedure</emphasis>. Pause for 
+    <parameter>usec</parameter> microseconds.
+  </listitem>
+</varlistentry>

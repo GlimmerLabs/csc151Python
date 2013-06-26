@@ -1,0 +1,10 @@
+<varlistentry>
+  <term>
+    <code><function>context_list_brushes</function>()
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>. List all valid brush 
+    names.
+  </listitem>
+</varlistentry>

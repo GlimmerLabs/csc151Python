@@ -1,0 +1,12 @@
+<varlistentry>
+  <term>
+    <code><function>image_stroke_selection</function>(
+    <parameter>image</parameter>)
+    </code>
+  </term>
+  <listitem>
+    <emphasis>Python GIMP Procedure</emphasis>. Traces the edge of the 
+    selected region of the given image with the current brush and 
+    foreground color.
+  </listitem>
+</varlistentry>
