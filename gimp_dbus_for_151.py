@@ -1147,8 +1147,9 @@ def image_get_pixel(image, x, y):
         raise ValueError ("Selection is out of range")
     else:
         layer = image_get_layer(image)
-        pixel = gimp.gimp_drawable_get_pixel(layer, x, y)
-    return pixel
+        pixel = gimp.gimp_drawable_get_pixel(layer, x, y)[1]
+        color = rgb_new(pixel[0], pixel[1], pixel[2])
+    return color
 
 #Procedure:
 #Parameters:
@@ -1170,7 +1171,7 @@ def image_set_pixel(image, x, y, color):
         raise TypeError("Red, Green, Blue is not a valid triple")
     else:
         layer = image_get_layer(image)
-        pixel = image_get_pixel(image, x, y)
+        pixel = gimp.gimp_drawable_get_pixel(layer, x, y)
         gimp.gimp_drawable_set_pixel(layer, x, y, pixel[0], rgb_to_rgb_list(color))
     return 1
     
